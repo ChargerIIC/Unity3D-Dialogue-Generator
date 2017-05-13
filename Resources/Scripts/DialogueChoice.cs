@@ -1,15 +1,20 @@
-public class DialogueChoice {
-	public String shortText;
-	public int next;
-	public boolean editor;
+using System;
 
-	DialogueChoice () {
-		shortText = "New Choice";
-		editor = false;
-	}
+public class DialogueChoice
+{
+    public String shortText;
+    public int next;
+    public bool editor;
 
-	DialogueChoice (s:String) {
-		shortText = s;
-		editor = false;
-	}
+    public DialogueChoice()
+    {
+        shortText = "New Choice";
+        editor = false;
+    }
+
+    public DialogueChoice(string s)
+    {
+        shortText = s;
+        editor = false;
+    }
 }

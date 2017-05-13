@@ -1,3 +1,5 @@
+using System;
+
 public class Link {
 	public String shortText;
 	public String url;
